@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ornique Jewellery Store</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Ornique Jewellery</h1>
+</header>
+
+<section class="products-section">
+    <h2>Products</h2>
+    <div id="products"></div>
+</section>
+
+<section class="cart-section">
+    <h2>Your Cart</h2>
+
+    <div id="cart-items"></div>
+
+    <h3>Total: ৳<span id="cart-total">0</span></h3>
+
+    <button id="clear-cart">Clear Cart</button>
+</section>
+
+<section class="checkout">
+    <h2>Checkout</h2>
+
+    <form id="checkout-form">
+
+        <input type="text" id="customer-name" placeholder="Your Name" required>
+        <input type="text" id="customer-phone" placeholder="Phone Number" required>
+        <textarea id="customer-address" placeholder="Address" required></textarea>
+
+        <button type="submit">Place Order on WhatsApp</button>
+
+    </form>
+</section>
+
+<script src="data/products.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
